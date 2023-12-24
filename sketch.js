@@ -1,9 +1,8 @@
 import {particles, spawnParticles} from './particle.js';
-let canvas;
 let holdingMouse = false;
 
 function setup() {
-  canvas = createCanvas(windowWidth, windowHeight, P2D);
+  createCanvas(windowWidth, windowHeight, P2D);
   frameRate(60);
   background(0);
   spawnParticles(10000);
